@@ -1,13 +1,13 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exits logindb_watanabe;
+drop database if exists logindb_watanabe;
 create database logindb_watanabe;
 use logindb_watanabe;
 
 create table user(
 id int,
 user_name varchar(255),
-password varcher(255),
+password varchar(255)
 );
 
 insert into user values
